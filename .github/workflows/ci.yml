@@ -43,7 +43,8 @@ jobs:
       matrix:
         distro:
           - rockylinux8
-          #- ubi8
+          - ubi9
+          - ubuntu2204
           - ubuntu2004
           - debian11
 
